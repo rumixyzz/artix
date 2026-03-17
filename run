@@ -1,0 +1,4 @@
+#!/bin/sh
+# weird way of managing dotfiles i guess...
+repoLocation="$HOME/.local/src/artix"
+configFiles="$repoLocation/cfgs"
