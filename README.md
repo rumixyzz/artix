@@ -26,7 +26,7 @@ passwd billy
 
 #### `hsetroot`
 
-... to set a wallpaper. Provide the image as well as a output mode (e.g `hsetroot -cover hentai.jpg`)
+... to set a wallpaper. Provide the image as well as a output mode
 
 ##### example
 
