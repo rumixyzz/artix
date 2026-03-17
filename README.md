@@ -9,26 +9,26 @@ including (but not limited to):
 - `gcc`
 - `coreutils`
 
-### post-install
+# who's this for?
 
-#### `passwd`
+well, if you just installed Artix linux (probably the cinnamon edition or something) and want something cool to take screenshots of your neofetch and post it to r/unixporn. 
+
+**otherwise you have pretty much no use.** Or maybe if you're a high IQ landchad who's too busy to do configurations by himself.
+
+# post-install
+
+## `passwd`
 ... to set a password. Also make sure to provide your username as the first argument
-
-##### example
 
 ```bash
 passwd billy
 ```
 
-#### `startx`
+## `startx`
+...  to start an awesome desktop (:D). You can edit `~/.xinitrc` to change what commands are executed. This is also where the keyboard repeat rate is set so if you wish to change that, edit this file.
 
-...  to start an awesome desktop (:D)
-
-#### `hsetroot`
-
+## `hsetroot`
 ... to set a wallpaper. Provide the image as well as a output mode
-
-##### example
 
 ```bash
 hsetroot -cover hentai.jpg
