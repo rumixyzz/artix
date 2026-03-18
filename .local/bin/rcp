@@ -1,0 +1,9 @@
+#!/bin/sh
+# update dotfiles archvied in ~/.local/src/artix
+
+cd "$HOME"
+rsync -avR \
+  ".config/"{x11,zsh,shell,fontconfig,picom,user-dirs.dirs} \
+  ".zshenv" \
+  ".local/bin" \
+  ".local/src/artix/"
