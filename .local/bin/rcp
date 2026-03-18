@@ -3,7 +3,7 @@
 
 cd "$HOME"
 rsync -avR \
-  ".config/"{x11,zsh,shell,fontconfig,picom,user-dirs.dirs} \
+  ".config/"{x11,zsh,shell,fontconfig,picom,nvim,user-dirs.dirs,sxwmrc,sxbarc} \
   ".zshenv" \
   ".local/bin" \
   ".local/src/artix/"

@@ -5,4 +5,5 @@ xset r rate 150 70
 slstatus &
 sudo light -S 100%
 
-exec dwm
+sxbar &
+exec sxwm
